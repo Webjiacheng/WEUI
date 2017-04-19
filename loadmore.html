@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>WeUI-加载更多</title>
+    <link rel="stylesheet" href="./node_modules/weui/dist/style/weui.min.css"/>
+</head>
+<body>
+<!--需要添加的内容-->
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">Loadmore</h1>
+        <p class="page__desc">加载更多</p>
+    </div>
+    <div class="page__bd">
+        <div class="weui-loadmore">
+            <i class="weui-loading"></i>
+            <span class="weui-loadmore__tips">正在加载</span>
+        </div>
+        <div class="weui-loadmore weui-loadmore_line">
+            <span class="weui-loadmore__tips">暂无数据</span>
+        </div>
+        <div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+            <span class="weui-loadmore__tips"></span>
+        </div>
+    </div>
+    <div class="page__ft">
+        <a href="javascript:home()"><img src="./node_modules/weui/src/example/images/icon_footer_link.png" /></a>
+    </div>
+</div>
+<!--图片路径：./node_modules/weui/src/example-->
+</body>
+</html>
